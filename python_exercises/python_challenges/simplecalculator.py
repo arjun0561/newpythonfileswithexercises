@@ -14,8 +14,8 @@ def calculator():
         operation = input("Choose operation (+, -, *, /): ")
         
         try:
-            num1 = float(num1)
-            num2 = float(num2)
+            num1 = int(num1)
+            num2 = int(num2)
             
             if operation == '+':
                 result = num1 + num2
